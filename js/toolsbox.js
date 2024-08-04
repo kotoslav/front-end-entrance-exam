@@ -15,27 +15,27 @@ export default class ToolsBox extends Box {
             tag: "programming",
             toolsList: [
               {
-                src: "/icon _adobe photoshop.png",
+                src: "./icon _adobe photoshop.png",
                 alt: "photoshop icon",
               },
               {
-                src: "/icon _adobe photoshop.png",
+                src: "./icon _adobe photoshop.png",
                 alt: "photoshop icon",
               },
               {
-                src: "/icon _adobe photoshop.png",
+                src: "./icon _adobe photoshop.png",
                 alt: "photoshop icon",
               },
               {
-                src: "/icon _adobe photoshop.png",
+                src: "./icon _adobe photoshop.png",
                 alt: "photoshop icon",
               },
               {
-                src: "/icon _adobe photoshop.png",
+                src: "./icon _adobe photoshop.png",
                 alt: "photoshop icon",
               },
               {
-                src: "/icon _adobe photoshop.png",
+                src: "./icon _adobe photoshop.png",
                 alt: "photoshop icon",
               },
             ],
@@ -44,27 +44,27 @@ export default class ToolsBox extends Box {
             tag: "no-code",
             toolsList: [
               {
-                src: "/icon _adobe photoshop.png",
+                src: "./icon _adobe photoshop.png",
                 alt: "photoshop icon",
               },
               {
-                src: "/icon _adobe photoshop.png",
+                src: "./icon _adobe photoshop.png",
                 alt: "photoshop icon",
               },
               {
-                src: "/icon _adobe photoshop.png",
+                src: "./icon _adobe photoshop.png",
                 alt: "photoshop icon",
               },
               {
-                src: "/icon _adobe photoshop.png",
+                src: "./icon _adobe photoshop.png",
                 alt: "photoshop icon",
               },
               {
-                src: "/icon _adobe photoshop.png",
+                src: "./icon _adobe photoshop.png",
                 alt: "photoshop icon",
               },
               {
-                src: "/icon _adobe photoshop.png",
+                src: "./icon _adobe photoshop.png",
                 alt: "photoshop icon",
               },
             ],
@@ -73,27 +73,27 @@ export default class ToolsBox extends Box {
             tag: "AI",
             toolsList: [
               {
-                src: "/icon _adobe photoshop.png",
+                src: "./icon _adobe photoshop.png",
                 alt: "photoshop icon",
               },
               {
-                src: "/icon _adobe photoshop.png",
+                src: "./icon _adobe photoshop.png",
                 alt: "photoshop icon",
               },
               {
-                src: "/icon _adobe photoshop.png",
+                src: "./icon _adobe photoshop.png",
                 alt: "photoshop icon",
               },
               {
-                src: "/icon _adobe photoshop.png",
+                src: "./icon _adobe photoshop.png",
                 alt: "photoshop icon",
               },
               {
-                src: "/icon _adobe photoshop.png",
+                src: "./icon _adobe photoshop.png",
                 alt: "photoshop icon",
               },
               {
-                src: "/icon _adobe photoshop.png",
+                src: "./icon _adobe photoshop.png",
                 alt: "photoshop icon",
               },
             ],
