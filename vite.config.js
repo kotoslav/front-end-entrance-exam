@@ -1,7 +1,5 @@
-module.exports = {
-    root: 'src',
-    build: {
-      outDir: '../docs',
-      emptyOutDir: true, // also necessary
-    }
-  }
+export default {
+  build: {
+    outDir: "./docs",
+  },
+};
