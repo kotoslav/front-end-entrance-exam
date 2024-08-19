@@ -5,7 +5,7 @@ export default class Box {
     this.rootNode.addEventListener("input", this.onParagraph);
     this.rootNode.addEventListener("keydown", this.onEnter.bind(this));
     this.rootNode.addEventListener("focusin", this.onFocus);
-    this.rootNode.addEventListener("focusout", this.animation);
+    this.rootNode.addEventListener("click", this.animation);
   }
 
   onEnter(e) {
@@ -25,15 +25,16 @@ export default class Box {
   animation(e) {
     const rippleEl = document.createElement('div');
     rippleEl.classList.add('ripple');
-
+    const elPositionX = e.currentTarget.getBoundingClientRect().x + window.pageXOffset;
+    const elPositionY = e.currentTarget.getBoundingClientRect().y + window.pageYOffset;
     
-    const x = e.offsetX;
-    const y = e.offsetY;
+    const x = e.pageX - elPositionX;
+    const y = e.pageY - elPositionY;
     
     e.currentTarget.appendChild(rippleEl);
 
-    rippleEl.style.left =  "0";
-    rippleEl.style.top = "0";
+    rippleEl.style.left = x + "px";
+    rippleEl.style.top = y + "px";
     
     
     requestAnimationFrame(() => {

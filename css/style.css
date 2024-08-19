@@ -124,7 +124,7 @@ legend {
 }
 
 .wrapper {
-  margin: 30px;
+  margin: 30px 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -164,7 +164,7 @@ legend {
   transition: background-color 0.3s;
 }
 
-.name-box:focus-within {
+.name-box:focus-within  {
   background-color: #d2f7d1;
 }
 
@@ -437,6 +437,10 @@ legend {
   opacity: 0.5;
 }
 
+.education-card_liked:hover .like_img{
+  opacity: 1;
+}
+
 .education-card_spec {
   font-size: 20px;
 }
@@ -549,7 +553,7 @@ legend {
 }
 
 .ripple {
-  background: white;
+  background: #28d979;
   width: 1px;
   height: 1px;
   border-radius: 100%;
@@ -570,7 +574,7 @@ legend {
   overflow: hidden;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1114px) {
   .grid {
     grid-template-columns: repeat(3, var(--grid-size));
     grid-auto-rows: minmax(var(--grid-size), auto);
@@ -610,7 +614,7 @@ legend {
   }
 }
 
-@media (max-width: 744px) {
+@media (max-width: 830px) {
   .grid {
     grid-template-columns: repeat(2, var(--grid-size));
     grid-auto-rows: minmax(var(--grid-size), auto);
@@ -650,7 +654,7 @@ legend {
   }
 }
 
-@media (max-width: 496px) {
+@media (max-width: 540px) {
   .wrapper {
     padding: 0px;
   }
@@ -670,6 +674,11 @@ legend {
 
   .experience-box {
     grid-column: 1/-1;
+  }
+
+  .lang {
+    grid-template-columns: 1fr;
+    gap: 0.5em;
   }
 
   .job_content {
